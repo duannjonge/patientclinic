@@ -6,7 +6,10 @@
 "Username":"John Doe",
 "age":35,
 "location":"Kentucky",
-"doctor_name":"Chris Stewart"
+"doctor_name":"Chris Stewart",
+"email":"chris@gmail.com",
+"telephone":"0724102567",
+"image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif"
 },
 {
 
@@ -14,7 +17,10 @@
     "Username":"John Smith",
     "age":15,
     "location":"Florida",
-    "doctor_name":"Mary ouko"
+    "doctor_name":"Mary ouko",
+    "email":"mary@gmail.com",
+    "telephone":"0723025678",
+    "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif"
 
 },
 {
@@ -23,8 +29,10 @@
     "Username":"Mary Smith",
     "age":27,
     "location":"Dallas",
-    "doctor_name":"Thomas Maine"
-
+    "doctor_name":"Thomas Maine",
+    "email":"thomas@gmail.com",
+    "telephone":"0710256781",
+    "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif"
 },
 {
 
@@ -32,7 +40,10 @@
     "Username":"Spent Johnson",
     "age":55,
     "location":"Atlanta",
-    "doctor_name":"Johnson Clarke"
+    "doctor_name":"Johnson Clarke",
+    "email":"spent@gmail.com",
+    "telephone":"0712323242",
+    "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif"
 
 },
 {
@@ -43,7 +54,10 @@
     "Username":"John Doe",
     "age":35,
     "location":"Kentucky",
-    "doctor_name":"Jane Matthews"
+    "doctor_name":"Jane Matthews",
+    "email":"jane@gmail.com",
+    "telephone":"0710298912",
+    "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif"
 }
 
 ]
