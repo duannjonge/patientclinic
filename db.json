@@ -1,65 +1,156 @@
 {
-
-"Details":[
-{
-"id":"1",
-"Username":"John Doe",
-"age":35,
-"location":"Kentucky",
-"doctor_name":"Chris Stewart",
-"email":"chris@gmail.com",
-"telephone":"0724102567",
-"image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif"
-},
-{
-
-    "id":"2",
-    "Username":"John Smith",
-    "age":15,
-    "location":"Florida",
-    "doctor_name":"Mary ouko",
-    "email":"mary@gmail.com",
-    "telephone":"0723025678",
-    "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif"
-
-},
-{
-
-    "id":"3",
-    "Username":"Mary Smith",
-    "age":27,
-    "location":"Dallas",
-    "doctor_name":"Thomas Maine",
-    "email":"thomas@gmail.com",
-    "telephone":"0710256781",
-    "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif"
-},
-{
-
-    "id":"4",
-    "Username":"Spent Johnson",
-    "age":55,
-    "location":"Atlanta",
-    "doctor_name":"Johnson Clarke",
-    "email":"spent@gmail.com",
-    "telephone":"0712323242",
-    "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif"
-
-},
-{
-
-
-
-    "id":"5",
-    "Username":"John Doe",
-    "age":35,
-    "location":"Kentucky",
-    "doctor_name":"Jane Matthews",
-    "email":"jane@gmail.com",
-    "telephone":"0710298912",
-    "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif"
-}
-
-]
-
+  "Details": [
+    {
+      "id": "1",
+      "Username": "John Doe",
+      "age": 35,
+      "location": "Kentucky",
+      "doctor_name": "Chris Stewart",
+      "email": "chris@gmail.com",
+      "telephone": "0724102567",
+      "image": "https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif"
+    },
+    {
+      "id": "2",
+      "Username": "John Smith",
+      "age": 15,
+      "location": "Florida",
+      "doctor_name": "Mary ouko",
+      "email": "mary@gmail.com",
+      "telephone": "0723025678",
+      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif"
+    },
+    {
+      "id": "3",
+      "Username": "Mary Smith",
+      "age": 27,
+      "location": "Dallas",
+      "doctor_name": "Thomas Maine",
+      "email": "thomas@gmail.com",
+      "telephone": "0710256781",
+      "image": "https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif"
+    },
+    {
+      "id": "4",
+      "Username": "Spent Johnson",
+      "age": 55,
+      "location": "Atlanta",
+      "doctor_name": "Johnson Clarke",
+      "email": "spent@gmail.com",
+      "telephone": "0712323242",
+      "image": "http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif"
+    },
+    {
+      "id": "5",
+      "Username": "John Doe",
+      "age": 35,
+      "location": "Kentucky",
+      "doctor_name": "Jane Matthews",
+      "email": "jane@gmail.com",
+      "telephone": "0710298912",
+      "image": "https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif"
+    },
+    {
+      "Username": "Plans",
+      "email": "brandenspot@gmail.com",
+      "telephone": "12222223",
+      "id": "meq013N"
+    },
+    {
+      "Username": "Plans",
+      "email": "brandenspot@gmail.com",
+      "telephone": "12222223",
+      "id": "FdZzaqx"
+    },
+    {
+      "Username": "Mary Wangari",
+      "email": "wangari@gmail.com",
+      "telephone": "0400500",
+      "id": "UdTFSW0"
+    },
+    {
+      "Username": "Man United ",
+      "email": "man@gmail.com",
+      "telephone": "83882342",
+      "id": "Hi_33Ew"
+    },
+    {
+      "Username": "Plans",
+      "email": "brandenspot@gmail.com",
+      "telephone": "12222223",
+      "id": "k1CwVl4"
+    },
+    {
+      "Username": "Plans",
+      "email": "brandenspot@gmail.com",
+      "telephone": "12222223",
+      "id": "KPxTkb-"
+    },
+    {
+      "Username": "Hallo",
+      "email": "brandenspot@gmail.com",
+      "telephone": "99990700",
+      "id": "TdSe15s"
+    },
+    {
+      "Username": "Jane Kamau",
+      "email": "kamau@gmail.com",
+      "telephone": "838284",
+      "id": "jaFsjtV"
+    },
+    {
+      "Username": "Hallo",
+      "email": "brandenspot@gmail.com",
+      "telephone": "9929939",
+      "id": "sXCUfbM"
+    },
+    {
+      "Username": "Faith jumwa",
+      "email": "faith@email.com",
+      "telephone": "0200045",
+      "id": "oYNSEPT"
+    },
+    {
+      "Username": "Hallo",
+      "email": "brandenspot@gmail.com",
+      "telephone": "9929939",
+      "id": "0peBwGB"
+    },
+    {
+      "Username": "Velo One",
+      "email": "brandenspot@gmail.com",
+      "telephone": "9929939",
+      "id": "cdgz0j_"
+    },
+    {
+      "Username": "Frank Komu",
+      "email": "frank@email.com",
+      "telephone": "88285828682",
+      "id": "9apRHo9"
+    },
+    {
+      "Username": "Hallo",
+      "email": "brandenspot@gmail.com",
+      "telephone": "12222223",
+      "id": "4H-CUfv"
+    },
+    {
+      "Username": "Hallo",
+      "email": "your@email.com",
+      "telephone": "6574732",
+      "id": "9OIDjAu"
+    },
+    {
+      "Username": "March One",
+      "email": "march@gmail.com",
+      "telephone": "3717713",
+      "id": "lIfWsmy"
+    },
+    {
+      "Username": "Chronicles",
+      "email": "chronicles@gmail.com",
+      "telephone": "084886490225",
+      "id": "y6c4fpr"
+    }
+  ]
 }
