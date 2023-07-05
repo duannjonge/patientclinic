@@ -151,6 +151,83 @@
       "email": "chronicles@gmail.com",
       "telephone": "084886490225",
       "id": "y6c4fpr"
+    },
+    {
+      "Username": "Hallo",
+      "email": "brandenspot@gmail.com",
+      "telephone": "9929939",
+      "id": "6Lg0Or0"
+    },
+    {
+      "Username": "Thomas Clarke",
+      "email": "thomas@gmail.com",
+      "telephone": "12222223",
+      "id": "KrZBoZm"
+    },
+    {
+      "Username": "ttttttttt",
+      "email": "brandenspot@gmail.com",
+      "telephone": "12222223",
+      "id": "0w9Rigv"
     }
-  ]
+  ],
+  "Doctor":[
+
+    {
+    
+        "id": "1",
+        "note": "Doctor's Note",
+        "age": 35,
+        "location": "Kentucky",
+        "doctor_name": "Chris Stewart",
+        "prescription": "prsence of Plasmodium Detected "
+    
+    },
+    {
+    
+        "id": "2",
+        "note": "Doctor's Note",
+        "age": 35,
+        "location": "Kentucky",
+        "doctor_name": "Chris Stewart",
+        "prescription": "prsence of Plasmodium Detected "
+    
+    },
+    {
+    
+        "id": "3",
+        "note": "Doctor's Note",
+        "age": 35,
+        "location": "Kentucky",
+        "doctor_name": "Chris Stewart",
+        "email": "prsence of Plasmodium Detected "
+    
+    },
+    {
+    
+        "id": "4",
+        "note": "Doctor's Note",
+        "age": 35,
+        "location": "Kentucky",
+        "doctor_name": "Chris Stewart",
+        "email": "prsence of Plasmodium Detected "
+    
+    },
+    {
+    
+        "id": "5",
+        "note": "Doctor's Note",
+        "age": 35,
+        "location": "Kentucky",
+        "doctor_name": "Chris Stewart",
+        "email": "prsence of Plasmodium Detected "
+    
+    }
+    
+    
+    ]
 }
+  
+
+
+  
