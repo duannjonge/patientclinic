@@ -1,13 +1,19 @@
 let events = [];
+let feedBack=[];
+let medicine=[];
 
 // Make sure DOM is loaded before fetching content
 document.addEventListener('DOMContentLoaded', async () => {
   // Store fetched data
   const response = await getPatientDetails();
+  const medFeedBack = await getMedicinedetails();
   // Save the response into events variable
   events = response;
-  console.log(events);
-  toCapturePatientDits(events);
+  medicine=medFeedBack;
+  console.log(medicine);
+
+  toCapturePatientDits();
+  loadMedicine();
 });
 
 // Function to fetch data
@@ -90,3 +96,20 @@ document.querySelector(".frm").addEventListener('submit', function (event) {
 });
 
 //Deal with doctor comments
+
+
+//function to display medicine
+function getMedicinedetails(){
+
+return fetch('http://localhost:3000/medicine')
+    .then((response) => response.json())
+    .then((data) => data);
+
+}
+
+function loadMedicine(){
+// get Medicine and render the HTML
+
+
+
+}
