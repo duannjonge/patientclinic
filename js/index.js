@@ -26,21 +26,15 @@ function toCapturePatientDits(events) {
     const userPhone = document.createElement("p");
     userPhone.textContent = `Tel: ${contentDetails.telephone}`;
     titleName.appendChild(userPhone);
-    const userLocation = document.createElement("p");
-    userLocation.textContent = `Email: ${contentDetails.email}`;
-    titleName.appendChild(userLocation);
+    const userEmail= document.createElement("p");
+    userEmail.textContent = `Email: ${contentDetails.email}`;
+    titleName.appendChild(userEmail);
   });
 
   // Welcome message
-  const welcomeMessage = document.querySelector("#getForm");
-  welcomeMessage.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const captureInput = e.target.children[3].value;
-  });
-
   const welcomeValue = document.querySelector(".card-body");
   const welcomeTag = document.createElement("p");
-  welcomeTag.textContent = `${welcomeMessage}`;
+  welcomeTag.textContent = `Welcome:${textContent.Username}`;
   welcomeValue.appendChild(welcomeTag);
 }
 
@@ -56,25 +50,6 @@ document.querySelector(".frm").addEventListener('submit', function (event) {
     "telephone": frm.get("telephone"),
   };
 
-  // Capture location data
-  let locationBox = document.querySelector("#location");
-  let userLocation = {
-    latitude: "unknown",
-    longitude: "unknown",
-  };
-  window.navigator.geolocation.getCurrentPosition(
-    function (position) {
-      userLocation = {
-        latitude: position.coords.latitude,
-        longitude: position.coords.longitude,
-      };
-      locationBox.value = JSON.stringify(userLocation);
-    },
-    function (error) {
-      locationBox.value = JSON.stringify(userLocation);
-    }
-  );
-
   fetch('http://localhost:3000/Details', {
     method: 'POST',
     headers: {
@@ -84,8 +59,34 @@ document.querySelector(".frm").addEventListener('submit', function (event) {
     body: JSON.stringify(data),
   });
 
+    // Capture location data
+    function captureLocation(){
+
+      let locationBox = document.querySelector("#location");
+      let userLocation = {
+        latitude: "unknown",
+        longitude: "unknown",
+      };
+      window.navigator.geolocation.getCurrentPosition(
+        function (position) {
+          userLocation = {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+          };
+          locationBox.value = JSON.stringify(userLocation);
+        },
+        function (error) {
+          locationBox.value = JSON.stringify(userLocation);
+        }
+      );
+  
+  
+    }
+
   // Store in Local Storage with the first part being the id
   // localStorage.setItem("data",JSON.stringify(data));
   // const url = window.location.href.replace("index.html", "home.html");
   // window.location.href = url;
 });
+
+//Deal with doctor comments
