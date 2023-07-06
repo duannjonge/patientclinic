@@ -3,6 +3,9 @@
 ### Author 
 Duan Njonge
 
+### Project Description
+This application enables a patient to take charge of their health by being able to access their prescriptions and also rate service given by doctors.
+
 
 ### License
 
