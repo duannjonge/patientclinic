@@ -1,3 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+}
+
+
 h1 {
 
 text-align: center;
@@ -24,11 +32,68 @@ form {
   padding-left: 30px;
   padding-top: 30px;
 }
-/* .w-100{
-display:flex;
-justify-content:center;
-align-items: center;
-height:100vh;
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+th,
+td {
+  padding: 15px 15px;
+  vertical-align: middle;
+}
+thead {
+  background: #fff;
+  border-bottom: 1px solid #cecfd5;
+  color: #6F6F6F;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 12px;
+  text-align: left;
+  text-transform: uppercase;
+}
+tr {
+  border-bottom: 1px solid #cecfd5;
+}
+.medicines-image {
+  width: 100px;
+  height: 63px;
+  line-height: 12px;
+  object-fit: contain;
+}
+.medicines-image img {
+  width: 100px;
+  height: 63px;
+  
+}
+#page-details .medicines-image {
+  height: auto;
+  width: 250px;
+}
 
-} */
 
+.medicines-date,
+.medicines-title,
+.medicines-type,
+.medicines-price {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  text-transform: capitalize;
+  min-width: 50px;
+}
+.medicines-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.medicines-price {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: right !important;
+}
