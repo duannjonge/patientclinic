@@ -14,53 +14,93 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <div class="flex-container">
-          <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="profileImage">
+        <div class="bgflex flex-container">
+          <div class="titleOne card" style="width: 25rem;" id="nameUser">
+              <img src="#" class="picOne card-img-top" alt="profileImage">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">See Prescription</a>
+                <h5 class="one-card card-title"id="one-card">Card title</h5>
+                <p class="welcomeText card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div>
+
+                  <a  class="locone btn btn-primary" id="#medfile" onclick="captureLocation()">Location</a>
+                </div>
+                
               </div>
             </div>
           
         </div>
       </div>
-      <div class="col">
+      <div class="pres-button col p-4 ">
         <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="card-body" id="majorContainer">
+            <h5 class="card-title" id="docName">What we Do</h5>
+            <p class="card-text" id="docWords">General Ward </p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">Children Hospital</li>
+            <li class="list-group-item">Men's Ward</li>
+            <li class="list-group-item">Women's Ward</li>
           </ul>
           <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <a href="#" class="card-link">Blog</a>
+            <a href="#" class="card-link">Counselling</a>
           </div>
+          
         </div>
       </div>
-      <div class="col">
+      <div class="col p-4">
+        <ul class="nav nav-tabs">
+          <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Medicine Charges</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link active" id="medicine-charges-link" aria-current="page" href="#"onclick="showSection()" >Medicine Charges</a>
+          </li>
+          
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Book Appointment </a>
+          </li> -->
+        </ul>
+      </div>
+      <div class="col p-4">
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="./index.html">Log Out</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
+  <div class="backdrop"></div>
+  <section class="page" id="page-home"  hidden >
+          
+    <div class="table">
+      <table>
+        <tbody>
+
+        </tbody>
+      </table>          
+    </div>        
+  </section>
+  <div class="backdropTwo"></div>
+  <section class="book-appointment" id="page-appointment" hidden  onclick="showSectionTwo()">
+          
+    <form>
+      <label for="your-name">Your Name</label>
+      <input id="your-name" minlength="3" required>
+      <label for="your-email">Your Email</label>
+      <input id="your-email" type="email" required>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Choose a doctor </option>
+        <option value="1">Physio</option>
+        <option value="2">Surgeon</option>
+        <option value="3">Nurse</option>
+      </select>
+      <button type="submit">Book Appointment</button>
+
+    </form>   
+       
+  </section>
       
 <script src="./js/index.js" type="text/javascript" ></script>
 </body>
