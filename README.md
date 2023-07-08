@@ -6,6 +6,14 @@ Duan Njonge
 ### Project Description
 This application enables a patient to take charge of their health by being able to access their prescriptions and also rate service given by doctors.
 
+### User Story
+The application focuses on a patient and ensures that a patient can do the following
+.Register
+.Login
+.View User Details
+.Get Prescription
+.Rate different Doctors
+
 
 ### License
 
